@@ -1,0 +1,170 @@
+body{
+    
+}
+
+header h1{
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(221, 213, 213);
+
+    
+
+}
+
+header{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 50px;
+    padding-bottom: 30px;
+   
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(245,245,245);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+  
+.dropdown-content a:hover {
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: rgb(168, 177, 230);
+}
+
+.dropdown .dropbtn{
+    color: white;
+}
+
+body{
+    background-image: url(Imagenes/lebron-james-cavaliers-jersey-23-r6y477awl8vnrmp8.jpg);
+    
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0px;
+}
+
+p{
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    top: 5;
+    left: 10;
+   
+}
+
+.image-container {
+    animation: slide 6s infinite;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.image-container:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.image-container:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.image-container:nth-child(3) {
+    animation-delay: 4s;
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-100%);
+    }
+    66% {
+        transform: translateX(-200%);
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 5%;
+    display: block;
+}
+
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
